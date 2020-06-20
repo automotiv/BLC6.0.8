@@ -4,10 +4,8 @@ jdk: openjdk8
 
 build:
   ci:
-    - sdk update
     - sdk use maven 3.6.3
-    - sudo apt-get install git-all
-    - mkdir /root/.gitconfig
+    - sudo mkdir /root/.gitconfig
     - mvn clean
     - mvn install
     - echo "parent"
@@ -25,4 +23,3 @@ build:
     - mvn clean
     - mvn install
     - echo "api"
-    -
