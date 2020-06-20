@@ -6,6 +6,7 @@ build:
   ci:
     - sdk update
     - sdk use maven 3.6.3
+    - sudo apt install git-all
     - mvn clean
     - mvn install
     - echo "parent"
