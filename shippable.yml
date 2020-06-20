@@ -4,17 +4,22 @@ jdk: openjdk8
 
 build:
   ci:
+    - sdk update
     - sdk use maven 3.6.3
     - mvn clean
     - mvn install
+    - echo "parent"
     - cd site
     - mvn clean
     - mvn install
+    - echo "site"
     - cd ..
     - cd admin
     - mvn clean
     - mvn install
+    - echo "admin"
     - cd ..
     - cd api
     - mvn clean
     - mvn install
+    - echo "api"
