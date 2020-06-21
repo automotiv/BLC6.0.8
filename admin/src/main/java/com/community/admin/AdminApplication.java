@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-public class AdminApplication extends SpringBootServletInitializer {
+public class AdminApplication extends BroadleafBootServletContextInitializer {
 
     @Configuration
     @EnableBroadleafAdminAutoConfiguration
