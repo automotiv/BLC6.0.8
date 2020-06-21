@@ -95,7 +95,7 @@
           <element id="library" level="project" name="Maven: com.broadleafcommerce:broadleaf-boot-starter-database:2.0.0-GA" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.32" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:8.5.32" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.46" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
           <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.14" />
           <element id="library" level="project" name="Maven: org.broadleafcommerce:broadleaf-thymeleaf3-presentation:2.0.0-GA" />
           <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:3.0.9.RELEASE" />
