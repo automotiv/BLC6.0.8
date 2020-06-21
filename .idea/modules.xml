@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BLC6.0.8.iml" filepath="$PROJECT_DIR$/.idea/BLC6.0.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin/boot-community-demo-admin.iml" filepath="$PROJECT_DIR$/admin/boot-community-demo-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/boot-community-demo-api.iml" filepath="$PROJECT_DIR$/api/boot-community-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/boot-community-demo-core.iml" filepath="$PROJECT_DIR$/core/boot-community-demo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/boot-community-demo-site.iml" filepath="$PROJECT_DIR$/site/boot-community-demo-site.iml" />
     </modules>
   </component>
 </project>
