@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="boot-community-demo-api:war">
+    <output-path>$PROJECT_DIR$/api/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>boot-community-demo-api</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="api.war">
+      <element id="artifact" artifact-name="boot-community-demo-api:war exploded" />
+    </root>
+  </artifact>
+</component>

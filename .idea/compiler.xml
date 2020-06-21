@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot-community-demo-admin" />
+        <module name="boot-community-demo-core" />
+        <module name="boot-community-demo-site" />
+        <module name="boot-community-demo-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BLC6.0.8" target="1.8" />
+      <module name="boot-community-demo-admin" target="1.8" />
+      <module name="boot-community-demo-api" target="1.8" />
+      <module name="boot-community-demo-core" target="1.8" />
+      <module name="boot-community-demo-site" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-community-demo-admin" options="-parameters" />
+      <module name="boot-community-demo-api" options="-parameters" />
+      <module name="boot-community-demo-core" options="-parameters" />
+      <module name="boot-community-demo-site" options="-parameters" />
+    </option>
+  </component>
+</project>
